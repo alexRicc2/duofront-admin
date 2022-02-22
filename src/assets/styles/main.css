@@ -1,19 +1,8 @@
-/*!
-=========================================================
-* Muse Ant Design Dashboard - v1.0.0
-=========================================================
-* Product Page: https://www.creative-tim.com/product/muse-ant-design-dashboard
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/muse-ant-design-dashboard/blob/main/LICENSE.md)
-* Coded by Creative Tim
-=========================================================
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 body {
   padding: 0 0 30px 0;
-  background-color: #fafafa;
+  background-color: #222 !important;
   letter-spacing: -0.3px;
-  color: rgba(0, 0, 0, 0.65);
+  color: #fafafa;
   font-size: 14px;
   line-height: 1.6;
   font-weight: 400;
@@ -148,14 +137,14 @@ body {
   .ant-menu-submenu.ant-menu-item-selected
   .active,
 .layout-dashboard .ant-layout-sider.sider-primary .ant-menu-submenu .active {
-  background-color: #fff;
+  background-color: rgb(80, 55, 83);
   box-shadow: 0 20px 27px rgb(0 0 0 / 5%);
   font-weight: 600;
 }
 .layout-dashboard .ant-layout-sider.sider-primary .ant-menu-item a,
 .layout-dashboard .ant-layout-sider.sider-primary .ant-menu-submenu a {
   padding: 10px 16px;
-  color: #141414;
+  color: #fafafa;
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -172,7 +161,7 @@ body {
   .ant-menu-item
   .active
   .icon {
-  background-color: #1890ff;
+  background-color: #222;
 }
 .layout-dashboard
   .ant-layout-sider.sider-primary
@@ -190,7 +179,7 @@ body {
   .ant-menu-submenu
   .active
   .icon {
-  background-color: #1890ff;
+  background-color: #222;
 }
 
 .layout-dashboard .ant-layout-sider.sider-primary .ant-menu-item .icon,
@@ -397,7 +386,7 @@ body {
   color: #8c8c8c;
 }
 .layout-dashboard .ant-breadcrumb > span:last-child .ant-breadcrumb-link {
-  color: #141414;
+  color: #fafafa;
 }
 .layout-dashboard .ant-page-header-heading {
   margin-top: 0;
@@ -407,6 +396,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   margin-top: 4px;
+  color: rgb(150, 87, 150);
 }
 .layout-dashboard .header-control {
   display: flex;
@@ -781,9 +771,7 @@ ul.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light.left-nav
 
   margin-top: 15px;
 }
-.ant-layout {
-  background: #fafafa;
-}
+
 .pageheader {
   display: flex;
   align-items: center;
@@ -1253,14 +1241,6 @@ img {
   margin-bottom: 1.5rem !important;
 }
 
-.gradent {
-  background: url("../images/info-card-2.jpg") no-repeat center top;
-  background-size: cover;
-  padding: 15px;
-  border-radius: 15px;
-  color: #fff;
-}
-
 .gradent h5 {
   color: #fff;
 }
@@ -1278,7 +1258,7 @@ img {
   color: #fff;
 }
 .copyright {
-  color: #8c8c8c;
+  color: #fafafa;
   margin-top: 7px;
 }
 .copyright .anticon-heart {
@@ -1287,7 +1267,7 @@ img {
 }
 .copyright a {
   margin: 0px 5px;
-  color: #141414;
+  color: #fafafa;
   font-weight: 700;
 }
 .footer-menu ul {
@@ -1797,17 +1777,7 @@ body {
 .header-col.header-nav li:after {
   display: none;
 }
-.sign-up-header {
-  height: 550px;
-  margin-top: -62.8px;
-  padding-top: 137.8px;
-  border-radius: 12px;
-  box-shadow: 0 20px 27px rgb(0 0 0 / 5%);
-  background-size: cover;
-  background-position: 50%;
-  text-align: center;
-  background: url("../images/bg-signup.jpg") no-repeat center top;
-}
+
 .header-col.header-brand {
   white-space: nowrap;
 }
@@ -2240,28 +2210,6 @@ button.ant-btn.bell strong {
   margin-right: 10px !important;
 }
 
-.ant-table-tbody > tr > td h6 {
-  font-size: 14px;
-  font-weight: 600;
-  color: #141414;
-}
-
-.layout-dashboard .header-control .header-search input.ant-input {
-  height: auto;
-}
-
-small.redtext {
-  color: red;
-}
-
-.full-width path {
-  fill: transparent;
-}
-
-.bar-chart line.apexcharts-xaxis-tick {
-  stroke: transparent;
-}
-
 section.ant-layout.layout-content .ant-layout-content.content-ant {
   padding: 0px !important;
 }
@@ -2271,57 +2219,11 @@ section.ant-layout.layout-content .ant-layout-content.content-ant {
   box-shadow: 0 20px 27px rgb(0 0 0 / 5%);
 }
 
-.card-credit {
-  background-image: url("../images/info-card-3.jpg");
-  background-position: 50%;
-  background-size: cover;
-  border: none;
-}
-.card-credit * {
-  color: #fff;
-}
-
-.card-credit .card-number {
-  word-spacing: 10px;
-  font-weight: 600;
-  margin-bottom: 45px;
-  font-size: 20px;
-}
-.ant-card-head-wrapper {
-  min-height: 72px;
-}
-.card-credit .ant-card-body {
-  padding-top: 15px;
-}
-.card-credit .card-footer {
-  display: flex;
-  align-items: flex-end;
-}
 .m-auto,
 .ml-auto {
   margin-left: auto !important;
 }
-.m-30,
-.mr-30,
-.mx-30 {
-  margin-right: 30px !important;
-}
-.card-credit .card-footer h6,
-.card-credit .card-footer p {
-  margin-bottom: 0;
-}
-.card-credit .col-logo img {
-  max-width: 50px;
-}
-.card-credit .card-footer h6 {
-  font-weight: 700;
-}
-.width-100 {
-  width: 100%;
-}
-.p-20 {
-  padding: "0px 20px 0px 0px";
-}
+
 .layout-default .ant-layout-content.p-0 {
   padding: 0px;
 }
@@ -2333,7 +2235,7 @@ section.ant-layout.layout-content .ant-layout-content.content-ant {
   width: 64px;
   height: 64px;
   margin: auto;
-  background-color: #1890ff;
+  background-color: #222;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgb(0 0 0 / 12%);
   display: flex;
